@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+
+.po_header {
+  color: #878f92;
+  display: inline;
+  width: 25%;
+  font-size: 2em;
+  letter-spacing: -2px;
+  font-weight: 100;
+  height: 45px;
+  width:45px;
+
+}
+
+.App-header {
+  height: 65px;
+  padding: 20px;
+  color: #222;
+}
+
+a, a:hover {
+  color: #878f92;
+  text-decoration: none;
+}
+
+li {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+  margin-right: 40px;
+  color: #878f92;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+li:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease, margin-right .5s ease;
+}
+
+li:hover:after {
+	width: 100%;
+	background: lightgray;
+  margin-right: 70px;
+}
+
+.floatright {
+  float: right;
+}
+
+.floatleft {
+  float: left;
+}
+
+.section_one_body {
+  display: grid;
+  padding: 40px;
+  margin: 80px;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  outline: none;
+}
+
+.watch_demo_button {
+  background-color: #3DD85A;
+  color: white;
+  box-shadow: 10px 10px 5px lightgray;
+  margin-right:20px;
+  margin-left: -60px;
+  transition: background-color ease-in .3s, width linear .2s, height linear .2s;
+}
+
+.watch_demo_button.modal {
+  margin: 10px 120px 20px 120px;
+}
+
+.watch_demo_button:hover {
+  width: 230px;
+  height: 50px;
+  background-color: white;
+  color: #3DD85A;
+  border: 1px solid #3dd85a;
+  /*margin-top: -20px;*/
+}
+
+.learn_more_button {
+  background-color: white;
+  border: 1px solid #3dd85a;
+  color: #3dd85a;
+  transition: background-color ease-in .3s, width linear .2s, height linear .2s;
+}
+
+.learn_more_button:hover {
+  width: 230px;
+  height: 50px;
+  background-color: #3DD85A;
+  color: white;
+  box-shadow: 10px 10px 5px lightgray;
+}
+
+.close_modal {
+  margin-top: -18px;
+  margin-right: -22px;
+  height: 20px;
+  width: 20px;
+  transition: width linear .2s, height linear .2s;
+}
+
+.close_modal:hover {
+height: 25px;
+width: 25px;
+}
+
+.modal_input_text {
+  width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  border:none;
+  color: lightgray;
+  height: 30px;
+}
+
+.po_text_box {
+  width: 35%;
+  float:right;
+  padding: 40px;
+  margin: 80px;
+  border: 1px solid black;
+}
